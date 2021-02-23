@@ -16,6 +16,8 @@ a:hover {
     text-decoration: underline;
 }
 
+
+
 header {
     margin-left: auto;
 }
@@ -33,4 +35,48 @@ header #signin {
 
     padding: 9px 23px;
     border-radius: 4px;
+    border-style: solid;
+    border-color: #1a73e8;
+
+    background: #1a73e8;
+    color: white;
+}
+
+
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 584px;
+    margin: auto;
+}
+
+main #main-logo {
+    max-height: 92px;
+    margin: auto;
+    padding-top: 6px;
+}
+
+main #search-box {
+    width: 100%;
+    height: 44px;
+    border-radius: 24px;
+    margin: auto;
+    border: 1px solid #dfe1e5;
+    margin-top: 20px;
+}
+
+main input {
+    background: none;
+    border: none;
+    color: #222;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
 }
