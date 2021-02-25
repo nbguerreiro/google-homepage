@@ -15,12 +15,22 @@ a:hover {
     text-decoration: underline;
 }
 
+/* ------------------------------------------ */
 header {
-    margin-left: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
-header a {
-    padding-left: 15px;
+header ul {
+    float: right;
+}
+
+header li {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0px;
+    display: inline;
 }
 
 header #signin {
@@ -37,11 +47,15 @@ header #signin {
     color: white;
 }
 
+/* ------------------------------------------ */
 main {
     display: flex;
     flex-direction: column;
     width: 584px;
     margin: auto;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
 }
 
 main #main-logo {
@@ -71,3 +85,25 @@ main input {
     text-align: center;
     cursor: pointer;
 }
+
+main li {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0px;
+    display: inline;
+}
+
+/* ------------------------------------------ */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer li {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0px;
+    display: inline;
+}
+
