@@ -97,9 +97,21 @@ main li {
 
 /* ------------------------------------------ */
 footer {
+    background: #f2f2f2;
+    border-style: solid;
+    border-width: 2px 0 0 0;
+    border-color: #70757a;
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+footer a {
+    color: #70757a;
+}
+
+footer div {
+    display: inline;
 }
 
 footer li {
