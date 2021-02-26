@@ -24,9 +24,11 @@ header {
 
 header ul {
     float: right;
+    padding: 10px 20px;
 }
 
 header li {
+    vertical-align: middle;
     list-style-type: none;
     margin: 10px;
     padding: 0px;
