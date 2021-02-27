@@ -53,7 +53,8 @@ header #signin {
 main {
     /* display: flex; */
     /* flex-direction: column; */
-    width: 584px;
+    max-width: 584px;
+    width: 90%;
     /* margin: auto; */
     /* position: absolute; */
     /* top: 50%; */
@@ -62,7 +63,7 @@ main {
     border-radius: 1em;
     padding: 1em;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     margin-right: -50%;
     /* margin-top: 50px; */
@@ -140,14 +141,11 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+     justify-content: space-between;
 }
 
 footer a {
     color: #70757a;
-}
-
-footer div {
-    display: inline;
 }
 
 footer li {
@@ -155,5 +153,12 @@ footer li {
     margin: 10px;
     padding: 0px;
     display: inline;
+}
+
+#fleft {
+  float: left;
+}
+#fright {
+  float: right;
 }
 
